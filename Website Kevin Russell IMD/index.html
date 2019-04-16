@@ -458,7 +458,14 @@ type="button" class="btn btn-default btn-file">Download CV <input type="file.txt
 </div>
 </div>  <!---- End Active --->
 
- 
+
+<p>Date/Time: <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+
 
 
   <footer class="container-fluid text-right">
