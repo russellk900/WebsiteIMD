@@ -214,9 +214,13 @@ startTime   {
 		<slides class="container-fluid text-center">
                 <div class="item active">
     
-			<p>Current Time.</p>        
-<canvas id="canvas" width="100" height="100"
-style="background-color:white">
+			<p>Time:</p>        
+<canvas id="canvas" width="50" height="50"
+style="background-color:Grey">
+	
+<body onload="startTime()">
+
+
 </canvas>
 
 			
@@ -307,13 +311,6 @@ a:active {
 
     
  	
-<div class="container" id="slides">
-    
-    <slides class="container-fluid text-left">
-
-<slides class="container-fluid text-left">
-                <div class="item active">
-
 
 <script>
 var canvas = document.getElementById("canvas");
@@ -550,10 +547,6 @@ function checkTime(i) {
 }
 </script>
 </head>
-
-<body onload="startTime()">
-
-	
 
 </footer>
 
